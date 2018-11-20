@@ -17,15 +17,24 @@ class Person extends Component {
     super(props)
 
     this.state = {
-      hidden: false
+      hidden: true
     }
+
+    this.toggleHidden = this.toggleHidden.bind(this)
   }
+
+  toggleHidden() {
+    this.setState({
+      hidden: !this.state.hidden
+    })
+  }
+
 
   render () {
     return (
         <div>
-          <li className="person-list-item">{this.props.name}</li>
-          <div className="">
+          <li onClick={this.toggleHidden} className="person-list-item">{this.props.name}</li>
+          <div className={this.state.hidden ? 'hidden' : ''}>
             <PersonDetail
               description={this.props.description}
             />

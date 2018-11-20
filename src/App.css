@@ -9,7 +9,15 @@ body {
 }
 
 .collapsed {
-  display: none
+  display: none;
+}
+
+p {
+  font-size: 60%;
+}
+
+.hidden {
+  display: none;
 }
 
 .house-name {
