@@ -31,8 +31,8 @@ class House extends Component {
   render () {
     return (
       <div className={`house-name ${this.state.liked ? 'liked' : ''}`}>
-        <h3 className={`individual-house ${this.state.collapsed ? 'hidden' : ''}`}>{this.props.name}</h3>
-        <ul className={`${this.state.collapsed ? 'hidden' : ''}`}>
+        <h3 className={`individual-house ${this.state.collapsed ? 'collapsed' : ''}`}>{this.props.name}</h3>
+        <ul className={`${this.state.collapsed ? 'collapsed' : ''}`}>
         {this.props.people.map(person => (
           <Person
             key={person.name}
