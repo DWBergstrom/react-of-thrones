@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-of-thrones/precache-manifest.6b4f69d4ac9e13a1d0c973516c83d7b6.js"
+  "/react-of-thrones/precache-manifest.417aec849316dcc642c1b2946f5e5c63.js"
 );
 
 workbox.clientsClaim();

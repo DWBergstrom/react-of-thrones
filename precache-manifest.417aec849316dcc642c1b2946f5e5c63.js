@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-of-thrones/static/js/runtime~main.08e8892f.js"
   },
   {
-    "revision": "aae28e1723525a878c11",
-    "url": "/react-of-thrones/static/js/main.aae28e17.chunk.js"
+    "revision": "8655adfec2e312bf9aac",
+    "url": "/react-of-thrones/static/js/main.8655adfe.chunk.js"
   },
   {
     "revision": "20bc491bae5e667480bb",
     "url": "/react-of-thrones/static/js/1.20bc491b.chunk.js"
   },
   {
-    "revision": "aae28e1723525a878c11",
-    "url": "/react-of-thrones/static/css/main.50dde6b5.chunk.css"
+    "revision": "8655adfec2e312bf9aac",
+    "url": "/react-of-thrones/static/css/main.8d4d382f.chunk.css"
   },
   {
-    "revision": "f93be4615edc91c5635ae3c27c92bb57",
+    "revision": "3a31362ac4e9384dd9b719e17f3d6f07",
     "url": "/react-of-thrones/index.html"
   }
 ];
