@@ -8,6 +8,11 @@ body {
   text-align: center;
 }
 
+.heading {
+  height: 20vh;
+  width: 100vw;
+}
+
 .collapsed {
   display: none;
 }
@@ -20,15 +25,20 @@ p {
   display: none;
 }
 
-.house-name {
+.container {
   text-align: center;
   display: flex;
-  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 20px;
-  border: 1px solid black;
-  margin: 0 auto;
   margin-bottom: 10px;
+
+}
+
+.house-name {
   width: 35%;
+  border: 1px solid black;
+  margin: 10px;
 }
 
 .person-list-item {

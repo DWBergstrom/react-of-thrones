@@ -273,15 +273,19 @@ const houses = [
 
 const App = () => (
   <div>
-    <h1 className="primary">Game of Thrones</h1>
-    <h3 className="primary">Houses</h3>
-    {houses.map(house => (
-      <House
-        key={house.wikiSuffix}
-        name={house.name}
-        people={house.people}
-      />
-    ))}
+    <div className="heading">
+      <h1 className="primary">Game of Thrones</h1>
+      <h3 className="primary">Houses</h3>
+    </div>
+    <div className="container">
+      {houses.map(house => (
+        <House
+          key={house.wikiSuffix}
+          name={house.name}
+          people={house.people}
+        />
+      ))}
+    </div>
   </div>
 )
 
